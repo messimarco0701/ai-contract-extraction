@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_06",
+  "file": "doc_06.pdf",
+  "template": "contract",
+  "expected_issues": [
+    "vat_checksum"
+  ],
+  "fields": {
+    "company_name": "Salandra Alimentare S.r.l.s.",
+    "vat_number": "99737630130",
+    "tax_code": "99737630139",
+    "street": "Via San Francesco 34",
+    "zip_code": "41121",
+    "city": "Modena",
+    "province": "MO",
+    "contact_name": "Bianca Lettiere",
+    "contact_email": null,
+    "start_date": "2026-07-01",
+    "duration_months": 36,
+    "end_date": "2029-06-30",
+    "annual_fee": 44450.0,
+    "setup_fee": null,
+    "employees": 709,
+    "payment_terms_days": 30,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-06-14"
+  }
+}

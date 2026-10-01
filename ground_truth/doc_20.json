@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_20",
+  "file": "doc_20.xlsx",
+  "template": "excel_h",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Frescobaldi Alimentare S.r.l.",
+    "vat_number": "88568550904",
+    "tax_code": "88568550904",
+    "street": "Via dei Mille 122",
+    "zip_code": "50121",
+    "city": "Firenze",
+    "province": "FI",
+    "contact_name": "Filippa Tarchetti",
+    "contact_email": "filippa.tarchetti@frescobaldialimentare.it",
+    "start_date": "2026-05-01",
+    "duration_months": 24,
+    "end_date": null,
+    "annual_fee": 14750.0,
+    "setup_fee": 3400.0,
+    "employees": 458,
+    "payment_terms_days": 0,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2026-03-24"
+  }
+}

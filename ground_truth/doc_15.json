@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_15",
+  "file": "doc_15.xlsx",
+  "template": "excel_v",
+  "expected_issues": [
+    "vat_checksum"
+  ],
+  "fields": {
+    "company_name": "Norbiato Trasporti S.r.l.s.",
+    "vat_number": "34558120200",
+    "tax_code": "34558120209",
+    "street": "Viale Camillo Cavour 74",
+    "zip_code": "00184",
+    "city": "Roma",
+    "province": "RM",
+    "contact_name": "Giacobbe Interiano",
+    "contact_email": "giacobbe.interiano@norbiatotrasporti.it",
+    "start_date": "2026-12-01",
+    "duration_months": 24,
+    "end_date": "2028-11-30",
+    "annual_fee": 8950.0,
+    "setup_fee": 1380.0,
+    "employees": 55,
+    "payment_terms_days": 90,
+    "billing_frequency": "semestrale",
+    "signed": true,
+    "signature_date": "2026-10-27"
+  }
+}

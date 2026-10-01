@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_02",
+  "file": "doc_02.pdf",
+  "template": "form",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Cilea Meccanica S.p.A.",
+    "vat_number": "78161840810",
+    "tax_code": null,
+    "street": "Corso Alessandro Volta 12",
+    "zip_code": "20900",
+    "city": "Monza",
+    "province": "MB",
+    "contact_name": "Loredana Camicione",
+    "contact_email": "loredana.camicione@cileameccanica.it",
+    "start_date": "2026-06-01",
+    "duration_months": 12,
+    "end_date": null,
+    "annual_fee": 7050.0,
+    "setup_fee": 1520.0,
+    "employees": 943,
+    "payment_terms_days": 60,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-05-04"
+  }
+}

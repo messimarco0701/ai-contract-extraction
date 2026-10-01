@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_22",
+  "file": "doc_22.pdf",
+  "template": "contract",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Vasari Software S.r.l.",
+    "vat_number": "65277580356",
+    "tax_code": "61692840426",
+    "street": "Viale XX Settembre 113",
+    "zip_code": "20900",
+    "city": "Monza",
+    "province": "MB",
+    "contact_name": "Giuseppe Renzi",
+    "contact_email": "giuseppe.renzi@vasarisoftware.it",
+    "start_date": "2026-02-01",
+    "duration_months": 24,
+    "end_date": "2028-01-31",
+    "annual_fee": 32650.0,
+    "setup_fee": 950.0,
+    "employees": 737,
+    "payment_terms_days": 90,
+    "billing_frequency": "semestrale",
+    "signed": true,
+    "signature_date": "2026-01-10"
+  }
+}

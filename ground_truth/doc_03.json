@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_03",
+  "file": "doc_03.pdf",
+  "template": "letter",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Broschi Arredamenti S.r.l.s.",
+    "vat_number": "64835030053",
+    "tax_code": "64139530840",
+    "street": "Via Dante Alighieri 119",
+    "zip_code": "47121",
+    "city": "Forlì",
+    "province": "FC",
+    "contact_name": "Camilla Querini",
+    "contact_email": "camilla.querini@broschiarredamenti.it",
+    "start_date": "2026-08-15",
+    "duration_months": 36,
+    "end_date": null,
+    "annual_fee": 17000.0,
+    "setup_fee": 0.0,
+    "employees": 832,
+    "payment_terms_days": 60,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-08-02"
+  }
+}

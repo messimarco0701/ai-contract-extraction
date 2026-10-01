@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_11",
+  "file": "doc_11.pdf",
+  "template": "contract",
+  "expected_issues": [
+    "not_signed"
+  ],
+  "fields": {
+    "company_name": "Villarosa Tessile S.r.l.",
+    "vat_number": "34216070291",
+    "tax_code": "34216070291",
+    "street": "Via IV Novembre 172",
+    "zip_code": "47121",
+    "city": "Forlì",
+    "province": "FC",
+    "contact_name": "Lando Opizzi",
+    "contact_email": "lando.opizzi@villarosatessile.it",
+    "start_date": "2026-08-01",
+    "duration_months": 24,
+    "end_date": "2028-07-31",
+    "annual_fee": 25700.0,
+    "setup_fee": 0.0,
+    "employees": 734,
+    "payment_terms_days": 90,
+    "billing_frequency": "semestrale",
+    "signed": false,
+    "signature_date": null
+  }
+}

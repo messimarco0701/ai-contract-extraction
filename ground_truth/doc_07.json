@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_07",
+  "file": "doc_07.pdf",
+  "template": "form",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Cuomo & Raimondi S.p.A.",
+    "vat_number": "08013260636",
+    "tax_code": "08013260636",
+    "street": "Viale San Francesco 26",
+    "zip_code": "40121",
+    "city": "Bologna",
+    "province": "BO",
+    "contact_name": "Massimiliano Lettiere",
+    "contact_email": "massimiliano.lettiere@cuomo.it",
+    "start_date": "2026-07-01",
+    "duration_months": 24,
+    "end_date": "2028-06-30",
+    "annual_fee": 41200.0,
+    "setup_fee": 1500.0,
+    "employees": 1153,
+    "payment_terms_days": 0,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-06-14"
+  }
+}

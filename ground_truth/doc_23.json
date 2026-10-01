@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_23",
+  "file": "doc_23.pdf",
+  "template": "form",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Orengo Plastica S.r.l.",
+    "vat_number": "35569090208",
+    "tax_code": "35569090208",
+    "street": "Via Roma 18",
+    "zip_code": "43121",
+    "city": "Parma",
+    "province": "PR",
+    "contact_name": "Giancarlo Cicilia",
+    "contact_email": "giancarlo.cicilia@orengoplastica.it",
+    "start_date": "2026-06-01",
+    "duration_months": 36,
+    "end_date": "2029-05-31",
+    "annual_fee": 10250.0,
+    "setup_fee": 950.0,
+    "employees": null,
+    "payment_terms_days": 30,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-04-26"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_08",
+  "file": "doc_08.pdf",
+  "template": "letter",
+  "expected_issues": [
+    "missing:vat_number"
+  ],
+  "fields": {
+    "company_name": "Morandini Logistica S.r.l.",
+    "vat_number": null,
+    "tax_code": null,
+    "street": "Largo dell'Artigianato 41",
+    "zip_code": "16121",
+    "city": "Genova",
+    "province": "GE",
+    "contact_name": "Claudio Cabibbo",
+    "contact_email": "claudio.cabibbo@morandinilogistica.it",
+    "start_date": "2026-02-15",
+    "duration_months": 12,
+    "end_date": "2027-02-14",
+    "annual_fee": 55900.0,
+    "setup_fee": 7220.0,
+    "employees": 629,
+    "payment_terms_days": 0,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2026-02-06"
+  }
+}

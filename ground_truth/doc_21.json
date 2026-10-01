@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_21",
+  "file": "doc_21.pdf",
+  "template": "scan",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Cocci Software S.r.l.",
+    "vat_number": "24008420820",
+    "tax_code": "71094770576",
+    "street": "Via Giuseppe Garibaldi 137",
+    "zip_code": "25121",
+    "city": "Brescia",
+    "province": "BS",
+    "contact_name": "Giustino Cilea",
+    "contact_email": "giustino.cilea@coccisoftware.it",
+    "start_date": "2026-06-01",
+    "duration_months": 12,
+    "end_date": "2027-05-31",
+    "annual_fee": 28250.0,
+    "setup_fee": 1500.0,
+    "employees": 124,
+    "payment_terms_days": 30,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-05-08"
+  }
+}

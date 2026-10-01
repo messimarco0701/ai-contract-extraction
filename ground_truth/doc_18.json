@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_18",
+  "file": "doc_18.pdf",
+  "template": "letter",
+  "expected_issues": [
+    "signature_after_start"
+  ],
+  "fields": {
+    "company_name": "Bertolucci Packaging S.r.l.",
+    "vat_number": "93149190063",
+    "tax_code": "93149190063",
+    "street": "Viale Alessandro Manzoni 20",
+    "zip_code": "21100",
+    "city": "Varese",
+    "province": "VA",
+    "contact_name": "Gianmarco Balbi",
+    "contact_email": "gianmarco.balbi@bertoluccipackaging.it",
+    "start_date": "2026-07-01",
+    "duration_months": 12,
+    "end_date": "2027-06-30",
+    "annual_fee": 54200.0,
+    "setup_fee": null,
+    "employees": null,
+    "payment_terms_days": 0,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-07-16"
+  }
+}

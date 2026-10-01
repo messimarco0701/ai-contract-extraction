@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_10",
+  "file": "doc_10.xlsx",
+  "template": "excel_h",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Battaglia & Sauro S.r.l.",
+    "vat_number": "01128050752",
+    "tax_code": null,
+    "street": "Piazza IV Novembre 144",
+    "zip_code": "60121",
+    "city": "Ancona",
+    "province": "AN",
+    "contact_name": "Adelasia Cattaneo",
+    "contact_email": "adelasia.cattaneo@battaglia.it",
+    "start_date": "2026-07-01",
+    "duration_months": 12,
+    "end_date": "2027-06-30",
+    "annual_fee": 33950.0,
+    "setup_fee": null,
+    "employees": 1161,
+    "payment_terms_days": 0,
+    "billing_frequency": "annuale",
+    "signed": true,
+    "signature_date": "2026-06-17"
+  }
+}

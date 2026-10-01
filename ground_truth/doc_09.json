@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_09",
+  "file": "doc_09.pdf",
+  "template": "sheet",
+  "expected_issues": [
+    "end_date_mismatch"
+  ],
+  "fields": {
+    "company_name": "Oliboni Alimentare S.r.l.s.",
+    "vat_number": "54278490849",
+    "tax_code": "54278490849",
+    "street": "Via Camillo Cavour 63",
+    "zip_code": "24121",
+    "city": "Bergamo",
+    "province": "BG",
+    "contact_name": "Rossana Muratori",
+    "contact_email": "rossana.muratori@olibonialimentare.it",
+    "start_date": "2026-11-01",
+    "duration_months": 12,
+    "end_date": "2026-10-31",
+    "annual_fee": 16150.0,
+    "setup_fee": null,
+    "employees": 717,
+    "payment_terms_days": 30,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2026-09-25"
+  }
+}

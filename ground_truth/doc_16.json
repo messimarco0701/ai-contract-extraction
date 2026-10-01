@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_16",
+  "file": "doc_16.pdf",
+  "template": "contract",
+  "expected_issues": [
+    "annual_fee_out_of_range"
+  ],
+  "fields": {
+    "company_name": "Donini Servizi S.r.l.",
+    "vat_number": "37346700505",
+    "tax_code": "37346700505",
+    "street": "Corso San Francesco 155",
+    "zip_code": "31100",
+    "city": "Treviso",
+    "province": "TV",
+    "contact_name": "Vittorio Gotti",
+    "contact_email": "vittorio.gotti@doniniservizi.it",
+    "start_date": "2026-11-15",
+    "duration_months": 24,
+    "end_date": "2028-11-14",
+    "annual_fee": 502500.0,
+    "setup_fee": 950.0,
+    "employees": 186,
+    "payment_terms_days": 0,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-10-12"
+  }
+}

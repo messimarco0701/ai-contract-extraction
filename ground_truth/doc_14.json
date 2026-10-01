@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_14",
+  "file": "doc_14.pdf",
+  "template": "sheet",
+  "expected_issues": [
+    "invalid_province"
+  ],
+  "fields": {
+    "company_name": "Sanguineti Trasporti S.r.l.",
+    "vat_number": "67632011002",
+    "tax_code": "67632011002",
+    "street": "Corso Alessandro Manzoni 179",
+    "zip_code": "22100",
+    "city": "Como",
+    "province": "COC",
+    "contact_name": "Erika Ossani",
+    "contact_email": "erika.ossani@sanguinetitrasporti.it",
+    "start_date": "2026-03-15",
+    "duration_months": 12,
+    "end_date": "2027-03-14",
+    "annual_fee": 59450.0,
+    "setup_fee": null,
+    "employees": null,
+    "payment_terms_days": 90,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2026-02-10"
+  }
+}

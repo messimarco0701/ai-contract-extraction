@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_24",
+  "file": "doc_24.pdf",
+  "template": "letter",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Burcardo & Bellini S.p.A.",
+    "vat_number": "12172710886",
+    "tax_code": "55188440212",
+    "street": "Piazza Vittorio Veneto 52",
+    "zip_code": "80133",
+    "city": "Napoli",
+    "province": "NA",
+    "contact_name": "Sonia Capecchi",
+    "contact_email": "sonia.capecchi@burcardo.it",
+    "start_date": "2026-12-01",
+    "duration_months": 24,
+    "end_date": "2028-11-30",
+    "annual_fee": 54450.0,
+    "setup_fee": 0.0,
+    "employees": 1187,
+    "payment_terms_days": 60,
+    "billing_frequency": "semestrale",
+    "signed": true,
+    "signature_date": "2026-10-22"
+  }
+}

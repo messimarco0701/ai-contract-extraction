@@ -1,0 +1,29 @@
+{
+  "doc_id": "doc_12",
+  "file": "doc_12.pdf",
+  "template": "form",
+  "expected_issues": [
+    "email_format"
+  ],
+  "fields": {
+    "company_name": "Bonanno Meccanica S.r.l.",
+    "vat_number": "98169340068",
+    "tax_code": "98169340068",
+    "street": "Piazza dell'Industria 112",
+    "zip_code": "20900",
+    "city": "Monza",
+    "province": "MB",
+    "contact_name": "Antonino Gentilini",
+    "contact_email": "antonino.gentilini@bonannomeccanica",
+    "start_date": "2026-01-01",
+    "duration_months": 24,
+    "end_date": "2027-12-31",
+    "annual_fee": 46550.0,
+    "setup_fee": 3140.0,
+    "employees": null,
+    "payment_terms_days": 90,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2025-12-01"
+  }
+}

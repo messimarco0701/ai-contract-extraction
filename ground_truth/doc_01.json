@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_01",
+  "file": "doc_01.pdf",
+  "template": "contract",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Caracciolo & Asmundo S.r.l.",
+    "vat_number": "81960010288",
+    "tax_code": "81960010288",
+    "street": "Via Roma 27",
+    "zip_code": "50121",
+    "city": "Firenze",
+    "province": "FI",
+    "contact_name": "Lucia Leone",
+    "contact_email": "lucia.leone@caracciolo.it",
+    "start_date": "2026-10-01",
+    "duration_months": 12,
+    "end_date": "2027-09-30",
+    "annual_fee": 22750.0,
+    "setup_fee": 950.0,
+    "employees": null,
+    "payment_terms_days": 30,
+    "billing_frequency": "semestrale",
+    "signed": true,
+    "signature_date": "2026-09-05"
+  }
+}

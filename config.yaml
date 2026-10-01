@@ -1,0 +1,59 @@
+# Settings for extraction and validation.
+# The validation thresholds are business decisions, not code: whoever owns the
+# customer onboarding process should be able to change them without opening Python.
+
+# The company that issues the contracts (us). Contracts always contain our own
+# name, VAT and address next to the customer's: both extractors need to know
+# which party to ignore, and validation flags a record that carries our VAT.
+own_company:
+  name: Esempio Servizi S.r.l.
+  vat_number: "07654321012"
+  street: Via dell'Esempio 1
+  zip_code: "20100"
+  email_domain: esempioservizi.it
+
+extraction:
+  # Any current Claude model id works here. Sonnet is a good fit: reading a
+  # contract is not hard reasoning, and it is cheaper than Opus at volume.
+  model: claude-sonnet-5-5
+  max_tokens: 16000
+  # low / medium / high. Field extraction from a short document rarely needs more than medium.
+  effort: medium
+
+validation:
+  # A record missing any of these can't be set up and goes to review.
+  mandatory_fields:
+    - company_name
+    - vat_number
+    - street
+    - zip_code
+    - city
+    - province
+    - start_date
+    - duration_months
+    - annual_fee
+    - signed
+
+  # Fees outside these ranges are almost always a typo or a misread
+  # (an extra zero, a monthly fee read as annual).
+  annual_fee_min: 1000
+  annual_fee_max: 250000
+  # Setup fee higher than this share of the annual fee is unusual enough to check.
+  setup_fee_max_share_of_annual: 1.0
+
+  employees_min: 1
+  employees_max: 50000
+
+  duration_months_allowed: [6, 12, 18, 24, 36, 48, 60]
+
+  # End date is expected on start + duration minus one day (1 Mar 2026 + 24 months = 28 Feb 2028).
+  # Some contracts write the day after; one day of tolerance covers both conventions.
+  end_date_tolerance_days: 1
+
+  # Italian province codes (sigle automobilistiche).
+  provinces: [AG, AL, AN, AO, AP, AQ, AR, AT, AV, BA, BG, BI, BL, BN, BO, BR, BS, BT, BZ,
+              CA, CB, CE, CH, CL, CN, CO, CR, CS, CT, CZ, EN, FC, FE, FG, FI, FM, FR, GE,
+              GO, GR, IM, IS, KR, LC, LE, LI, LO, LT, LU, MB, MC, ME, MI, MN, MO, MS, MT,
+              NA, NO, NU, OR, PA, PC, PD, PE, PG, PI, PN, PO, PR, PT, PU, PV, PZ, RA, RC,
+              RE, RG, RI, RM, RN, RO, SA, SI, SO, SP, SR, SS, SU, SV, TA, TE, TN, TO, TP,
+              TR, TS, TV, UD, VA, VB, VC, VE, VI, VR, VT, VV]

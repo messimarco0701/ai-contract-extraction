@@ -1,0 +1,27 @@
+Extractor: rules   Documents: 24
+
+             field  correct  wrong  missed  invented  correct_null accuracy precision recall
+      company_name       17      7       0         0             0      71%       71%    71%
+        vat_number       20      0       3         0             1      88%      100%    87%
+          tax_code        8      0      12         0             4      50%      100%    40%
+            street       24      0       0         0             0     100%      100%   100%
+          zip_code       21      0       3         0             0      88%      100%    88%
+              city       21      0       3         0             0      88%      100%    88%
+          province       21      0       3         0             0      88%      100%    88%
+      contact_name       22      0       2         0             0      92%      100%    92%
+     contact_email       23      0       0         0             1     100%      100%   100%
+        start_date       22      0       2         0             0      92%      100%    92%
+   duration_months       22      0       2         0             0      92%      100%    92%
+          end_date       18      0       2         0             4      92%      100%    90%
+        annual_fee       17      0       7         0             0      71%      100%    71%
+         setup_fee       15      1       1         0             7      92%       94%    88%
+         employees       17      0       2         0             5      92%      100%    89%
+payment_terms_days       20      2       2         0             0      83%       91%    83%
+ billing_frequency       14      0      10         0             0      58%      100%    58%
+            signed       21      1       2         0             0      88%       95%    88%
+    signature_date       17      0       6         0             1      75%      100%    74%
+        ALL FIELDS      360     11      62         0            23      84%       97%    83%
+
+Status after validation:  ok 7   needs_review 17
+Records marked ok that still contain a wrong or invented value: 0
+Planted problems flagged with the expected reason: 7 of 10

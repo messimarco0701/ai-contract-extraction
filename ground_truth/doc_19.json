@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_19",
+  "file": "doc_19.pdf",
+  "template": "sheet",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Pietrangeli & Interminelli S.p.A.",
+    "vat_number": "47379960447",
+    "tax_code": "47379960447",
+    "street": "Via Guglielmo Marconi 23",
+    "zip_code": "00184",
+    "city": "Roma",
+    "province": "RM",
+    "contact_name": "Baccio Franceschi",
+    "contact_email": "baccio.franceschi@pietrangeli.it",
+    "start_date": "2026-06-01",
+    "duration_months": 36,
+    "end_date": null,
+    "annual_fee": 24100.0,
+    "setup_fee": 3340.0,
+    "employees": 35,
+    "payment_terms_days": 90,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-05-22"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_13",
+  "file": "doc_13.pdf",
+  "template": "letter",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Bottaro & Giannini S.p.A.",
+    "vat_number": "80443690781",
+    "tax_code": "80443690781",
+    "street": "Corso Giacomo Leopardi 104",
+    "zip_code": "25121",
+    "city": "Brescia",
+    "province": "BS",
+    "contact_name": "Stefania Callegaro",
+    "contact_email": "stefania.callegaro@bottaro.it",
+    "start_date": "2026-08-15",
+    "duration_months": 36,
+    "end_date": "2029-08-14",
+    "annual_fee": 24250.0,
+    "setup_fee": 0.0,
+    "employees": 206,
+    "payment_terms_days": 30,
+    "billing_frequency": "trimestrale",
+    "signed": true,
+    "signature_date": "2026-07-27"
+  }
+}

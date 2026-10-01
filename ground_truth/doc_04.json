@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_04",
+  "file": "doc_04.pdf",
+  "template": "sheet",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Cabrini Servizi S.r.l.",
+    "vat_number": "97848010886",
+    "tax_code": null,
+    "street": "Via XX Settembre 98",
+    "zip_code": "38122",
+    "city": "Trento",
+    "province": "TN",
+    "contact_name": "Gian Giannini",
+    "contact_email": "gian.giannini@cabriniservizi.it",
+    "start_date": "2026-12-01",
+    "duration_months": 12,
+    "end_date": "2027-11-30",
+    "annual_fee": 20650.0,
+    "setup_fee": null,
+    "employees": 328,
+    "payment_terms_days": 60,
+    "billing_frequency": "bimestrale",
+    "signed": true,
+    "signature_date": "2026-10-23"
+  }
+}

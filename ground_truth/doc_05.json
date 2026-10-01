@@ -1,0 +1,27 @@
+{
+  "doc_id": "doc_05",
+  "file": "doc_05.xlsx",
+  "template": "excel_v",
+  "expected_issues": [],
+  "fields": {
+    "company_name": "Zamorani & Filangieri S.r.l.",
+    "vat_number": "82278240682",
+    "tax_code": "63834650572",
+    "street": "Piazza Vittorio Veneto 18",
+    "zip_code": "40121",
+    "city": "Bologna",
+    "province": "BO",
+    "contact_name": "Lauretta Verdone",
+    "contact_email": "lauretta.verdone@zamorani.it",
+    "start_date": "2026-09-15",
+    "duration_months": 12,
+    "end_date": "2027-09-14",
+    "annual_fee": 27750.0,
+    "setup_fee": 2950.0,
+    "employees": 135,
+    "payment_terms_days": 30,
+    "billing_frequency": "mensile",
+    "signed": true,
+    "signature_date": "2026-09-08"
+  }
+}
